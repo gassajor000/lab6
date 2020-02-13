@@ -25,6 +25,6 @@ function checkLoginState() {
         'imageURL': response.picture.data.url
     };
     $('#name').text(user.name);
-    $('#fb-login-btn').hide();
+    $('P.facebookLogin').hide();
     $('img#photo').attr('src', user.imageURL);
   }
